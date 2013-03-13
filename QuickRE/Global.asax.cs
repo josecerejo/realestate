@@ -16,6 +16,7 @@ namespace QuickRE
     {
         protected void Application_Start()
         {
+            // application starts
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
